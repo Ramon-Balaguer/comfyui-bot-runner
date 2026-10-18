@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-bot-runner"
+description = "Keep a workflow running from the ComfyUI server itself (no browser tab needed): ideal for Telegram/Discord listener bots. Sidebar panel to start/stop, capture the current workflow and free VRAM when idle."
+version = "1.0.0"
+license = { file = "LICENSE" }
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/Ramon-Balaguer/comfyui-bot-runner"
+Documentation = "https://github.com/Ramon-Balaguer/comfyui-bot-runner#readme"
+"Bug Tracker" = "https://github.com/Ramon-Balaguer/comfyui-bot-runner/issues"
+
+[tool.comfy]
+PublisherId = "ramon-balaguer"
+DisplayName = "Bot Runner"
